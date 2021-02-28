@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
+
+
+@font-face {
+
+  font-family: hirakaku;
+  src: url(./hiragino-kaku-gothic-std-w8\ 2.otf);
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.redline {
+
+position: fixed;
+width: 120vw;
+left: -30px;
+height: 12px;
+top: 14rem;
+
+z-index: -50;
+background: #E95E52;
+transform: rotate(15deg);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.pinkline {
+position: fixed;
+width: 200px;
+left: -40px;
+height: 6px;
+
+background: #D6A1BD;
+transform: rotate(-18deg);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.ltblueline {
+
+  position: fixed;
+  left: -30px;
+  width: 120vw;
+  height: 6px;
+  top: 32rem;
+  z-index: -50;
+  
+  background: #7299A4;
+  transform: rotate(-11deg);
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+
+  font-family: sunflora;
+  src: url(./Sunflora.otf);
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bglight {
+
+  background-color: #F5F3EF;
+
+}
+
+.lightbluetxt {
+
+  color: #465CA7;
+
+}
+
+
+
+.darkbluetxt {
+  color: #17526B;
+
+}
+
+.darkgrntxt {
+  color: #17526B;
+}
+
+.xrating {
+  transform: rotate(-15deg);
+}
+
+.zrating {
+  transform: rotate(15deg);
+
+}
+
+.timesnewroman {
+
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+
+}
+
+
+.hirakaku {
+  font-family: hirakaku;
+
+}
+
+.hidebox {
+
+  z-index: -10;
+  filter: drop-shadow(0px 0px 3px #F5F3EF);
+
+}
+
+
+.sunflora {
+  font-family: sunflora;
+}
+
+.drkgrntxt {
+
+  color: #157553;
+}
+
+.xrating, .zrating{
+
+  color: #F5F3EF;
+  font-size: 4.15rem;
+
+-webkit-text-stroke-width: 1.25px;
+-webkit-text-stroke-color: #2C6279;
+text-shadow: 5px 4px 0px #157553;
+}
+
+.zbodytxt, .xbodytxt {
+  z-index: -20;
+}
+
+.imagebox {
+
+position: absolute;
+width: 147px;
+height: 147px;
+top: 3rem;
+
+filter: drop-shadow(0px 2px 29px #D6A1BD);
+}
+
+.image {
+
+  background: url('./haveacornchip_200px.png');
+
 }

@@ -1,0 +1,12 @@
+{ 
+  
+  "media": ["games", "television", "movies"],
+  "food": [],
+  "houseware": [],
+  "people": ["artists"],
+  "jobs": [],
+  "clothes": [],
+  "art": ["music"]
+
+
+}
